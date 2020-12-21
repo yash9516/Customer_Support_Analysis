@@ -2292,7 +2292,7 @@ pyLDAvis.enable_notebook()
 vis = pyLDAvis.gensim.prepare(brit_lda, brit_corpus, dictionary=brit_lda.id2word)
 vis
 ```
-![png](BritishAirways_AmericanAirlines.png)
+![png](brit_lda.png)
 
 
 
@@ -3021,11 +3021,11 @@ html = st.produce_scattertext_explorer(corpus,
           term_significance = st.LogOddsRatioUninformativeDirichletPrior(),
           )
 display(HTML(html))
-![png](BritishAirways_AmericanAirlines.png)
-![png](BritishAirways_AmericanAirlines_Common_Mentions.png)
+
 
 ```
-
+![png](BritishAirways_AmericanAirlines.png)
+![png](BritishAirways_AmericanAirlines_Common_Mentions.png)
 
 
 
@@ -3104,9 +3104,9 @@ html2 = st.produce_scattertext_explorer(corpus2,
           )
 
 display(HTML(html2))
-![png](Uber_Lyft.png)
-```
 
+```
+![png](Uber_Lyft.png)
 
 <!-- some code adapted from www.degeneratestate.org/static/metal_lyrics/metal_line.html -->
 <!-- <!DOCTYPE html>
@@ -3179,8 +3179,9 @@ html3 = st.produce_scattertext_explorer(corpus3,
           )
 
 display(HTML(html3))
-![png](XBox_Playstation.png)
+
 ```
+![png](XBox_Playstation.png)
 
 
 <!-- some code adapted from www.degeneratestate.org/static/metal_lyrics/metal_line.html -->
@@ -3252,10 +3253,10 @@ html4 = st.produce_scattertext_explorer(corpus4,
           )
 
 display(HTML(html4))
+
+```
 ![png](TMobile_Sprint.png)
 ![png](TMobile_Sprint_Common_Mentions.png)
-```
-
 
 <!-- some code adapted from www.degeneratestate.org/static/metal_lyrics/metal_line.html -->
 <!-- <!DOCTYPE html>
